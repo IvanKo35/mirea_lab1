@@ -9,7 +9,7 @@ public class Example {
         double ArithmeticAverage;
         for (int i = 0; i < Array.length; i++) {
             Array[i] = sc.nextInt();
-            Sum+= Array[i];
+            Sum += Array[i];
         }
         ArithmeticAverage = (double)Sum/Array.length;
         System.out.println(Sum);
